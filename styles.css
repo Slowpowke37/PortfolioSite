@@ -79,10 +79,10 @@ form input, form textarea {
 
 form button {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     padding: 10px 10px;
     background-color: #333;
-    color: #000000;
+    color: #ffffff;
     border: none;
     cursor: pointer;
 }

@@ -129,11 +129,10 @@ form button:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #333; /* Ensure the background is the desired color */
     width: 25px;
     height: 25px;
     mask: url(icons/arrow-narrow-left.svg) no-repeat center;
-    -webkit-mask: url(icons/arrow-narrow-left.svg) no-repeat center;
+    -webkit-mask: url(icons/arrow-narrow-right.svg) no-repeat center;
     mask-size: contain;
     -webkit-mask-size: contain;
 }

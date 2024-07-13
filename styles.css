@@ -117,11 +117,25 @@ form button:hover {
     background-color: #000;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #333;
+    background-color: #333; /* Ensure the background is the desired color */
     width: 25px;
     height: 25px;
+    mask: url(icons/arrow-narrow-left.svg) no-repeat center;
+    -webkit-mask: url(icons/arrow-narrow-left.svg) no-repeat center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
 }
 
 .carousel-control-prev-icon:after,
@@ -142,15 +156,6 @@ form button:hover {
 .carousel-control-next-icon:after {
     transform: rotate(45deg);
     margin-right: -2px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    align-items: center;
-    justify-content: center;
 }
 
 footer {

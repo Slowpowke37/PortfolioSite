@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #3c2020;
-    color: #2e7841;
+    color: #3c2020;
     padding: 10px 0;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .filter-buttons button:hover {
-    background-color: #555;
+    background-color: #000000;
 }
 
 .projects-container {
@@ -64,7 +64,7 @@ nav ul li a {
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 300px;
+    width: 1440px;
 }
 
 #hero {
@@ -108,19 +108,19 @@ form button {
     margin-top: 20px;
     margin-bottom: 100px;
     padding: 10px 10px;
-    background-color: #333;
+    background-color: #000000;
     color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #000000;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #333;
+    background-color: #000000;
     background-image: none; /* Remove the default arrow icon */
     width: 50px;
     height: 50px;
@@ -151,14 +151,14 @@ form button:hover {
 .carousel-control-next {
     width: 50px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
     border-radius: 50%; /* Circular background */
     align-items: center;
     justify-content: center;
 }
 
 footer {
-    background-color: #333;
+    background-color: #3c2020;
     color: #fff;
     text-align: center;
     padding: 5px 0;

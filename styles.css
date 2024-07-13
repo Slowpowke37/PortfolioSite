@@ -120,7 +120,7 @@ form button:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #000000;
+    background-color: #ffffff;
     background-image: none; /* Remove the default arrow icon */
     width: 50px;
     height: 50px;
@@ -133,8 +133,8 @@ form button:hover {
     display: inline-block;
     width: 12px;
     height: 12px;
-    border-top: 2px solid #000000;
-    border-right: 2px solid #000000;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
 }
 
 .carousel-control-prev-icon:after {

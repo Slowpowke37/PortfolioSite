@@ -133,13 +133,11 @@ form button:hover {
     height: 25px;
 }
 
-/* Previous Icon */
 .carousel-control-prev-icon {
     background: url(icons/arrow-narrow-left.svg) no-repeat center;
     background-size: contain;
 }
 
-/* Next Icon */
 .carousel-control-next-icon {
     background: url(icons/arrow-narrow-right.svg) no-repeat center;
     background-size: contain;

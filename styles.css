@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Century Gothic';
-    src: url('fonts/Century\ Gothic.ttf') format('woff2'),
-         url('fonts/Century\ Gothic.ttf') format('woff');
+    src: url('fonts/Century\ Gothic.ttf') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,7 +50,7 @@ nav ul li a {
 }
 
 .filter-buttons button:hover {
-    background-color: #000000;
+    background-color: #000;
 }
 
 .projects-container {
@@ -64,7 +63,7 @@ nav ul li a {
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 1440px;
+    width: 300px;
 }
 
 #hero {
@@ -108,21 +107,21 @@ form button {
     margin-top: 20px;
     margin-bottom: 100px;
     padding: 10px 10px;
-    background-color: #000000;
+    background-color: #333;
     color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #000000;
+    background-color: #000;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #000000;
-    width: 50px;
-    height: 50px;
+    background-color: #333;
+    width: 25px;
+    height: 25px;
 }
 
 .carousel-control-prev-icon:after,
@@ -131,8 +130,8 @@ form button:hover {
     display: inline-block;
     width: 12px;
     height: 12px;
-    border-top: 2px solid #000000;
-    border-right: 2px solid #000000;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
 }
 
 .carousel-control-prev-icon:after {
